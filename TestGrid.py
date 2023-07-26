@@ -15,6 +15,7 @@ def make_grid(cols,rows):
 
 mygrid = make_grid(5,5)
 mygrid[0][0].write('Judul')
+mygrid[0][1].write('Judul 2')
 mygrid[1][1].write('Data 1')
 mygrid[2][2].write('Data 2')
 mygrid[3][3].write('Data 3')
