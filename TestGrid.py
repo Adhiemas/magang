@@ -4,6 +4,15 @@
 # In[1]:
 
 
+import streamlit as st
+
+def make_grid(cols,rows):
+    grid = [0]*cols
+    for i in range(cols):
+        with st.container():
+            grid[i] = st.columns(rows)
+    return grid
+
 mygrid = make_grid(5,5)
 mygrid[0][0].write('Judul')
 mygrid[1][1].write('Data 1')
