@@ -13,13 +13,15 @@ def make_grid(cols,rows):
             grid[i] = st.columns(rows)
     return grid
 
-mygrid = make_grid(5,5)
+mygrid = make_grid(30,30)
 mygrid[0][0].write('Judul')
 mygrid[0][1].write('Judul 2')
 mygrid[1][1].write('Data 1')
 mygrid[2][2].write('Data 2')
 mygrid[3][3].write('Data 3')
 mygrid[4][4].write('Data 4')
+mygrid[0][30].write('Judul 30')
+mygrid[30][30].write('Data 30')
 
 
 # In[ ]:
