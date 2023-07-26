@@ -22,6 +22,8 @@ mygrid[3][3].write('Data 3')
 mygrid[4][4].write('Data 4')
 mygrid[0][30].write('Judul 30')
 mygrid[30][30].write('Data 30')
+mygrid[29][29].write('Data 29')
+
 
 
 # In[ ]:
