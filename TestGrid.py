@@ -20,7 +20,9 @@ mygrid[1][1].write('Data 1')
 mygrid[2][2].write('Data 2')
 mygrid[3][3].write('Data 3')
 mygrid[4][4].write('Data 4')
-mygrid[1][29].write('Judul 30')
+mygrid[0][29].write('Judul 30')
+mygrid[29][0].write('Data 30')
+
 
 
 
