@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[22]:
+# In[26]:
 
-pip install pypyodbc
+
 import streamlit as st
 import pypyodbc as odbc
 
 
-# In[16]:
+# In[27]:
 
 
 DRIVER_NAME = 'SQL SERVER'
@@ -16,7 +16,7 @@ SERVER_NAME = '192.168.40.11'
 DATABASE_NAME = 'PBK_AOD'
 
 
-# In[18]:
+# In[28]:
 
 
 connection_string = f"""
@@ -32,7 +32,7 @@ conn = odbc.connect(connection_string)
 print(conn)
 
 
-# In[19]:
+# In[29]:
 
 
 def fetch_data(conn):
@@ -46,7 +46,7 @@ def fetch_data(conn):
 data = fetch_data(conn)
 
 
-# In[20]:
+# In[30]:
 
 
 def display_data(data):
@@ -72,7 +72,7 @@ def update_status(conn, row_id, new_status):
     cursor.close()
 
 
-# In[23]:
+# In[31]:
 
 
 def main():
