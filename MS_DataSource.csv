@@ -1,0 +1,47 @@
+DataSourceID,DataSourceName,DataSourceCode,DataSourceDescription,DataSourceTypeID,SequenceNo,FirstRowUpload,ExternalFunctionName,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy,DeletedDate,DeletedBy,EndPoint,Method,Body,TimeOut,IsActive,MessageSuccess,IsHistorical,IndeksKTP,IndeksNPWP,IndeksForeignKey
+1,CBS,CBS,CBS,1,1,0,NULL,12/12/2016 0:00,1,1/11/2019 10:54,edo,NULL,NULL,,,,0,0,,0,0,0,0
+2,Lembaga Kebijakan Pengadaan Barang Jasa Pemerintah,LKPP,Daftar Hitam Rekanan Pemerintah,2,2,0,NULL,12/12/2016 0:00,1,2/9/2019 0:30,achmad.jabbar,NULL,NULL,,,,0,1,,0,0,2,0
+3,Asosiasi Perusahaan Pembiayaan Indonesia,APPI,APPI - Penghapusbukuan Pinjaman,2,3,0,NULL,12/12/2016 0:00,1,8/24/2022 14:21,ahmad.fikri,NULL,NULL,,,NULL,0,1,,0,1,2,0
+4,Mahkamah Agung,MA,MA - Publikasi Putusan Pailit & Wanprestasi,2,4,0,NULL,12/12/2016 0:00,1,2/9/2019 0:31,achmad.jabbar,NULL,NULL,,,NULL,0,1,,1,0,2,0
+5,Telkom,TLKM,Telkom,2,5,1,1,12/12/2016 0:00,1,1/11/2019 10:36,edo,NULL,NULL,1,1,1,4,0,5,0,0,0,0
+6,Ditjen Pajak,DJP,Ditjen Pajak - Data NPWP,2,6,0,NULL,12/12/2016 0:00,1,7/9/2021 20:03,Hafit,NULL,NULL,https://ex-1.pajak.go.id/djpws/npwp/@NoNPWP/@Token,GET,,30000,1,JENIS_WP,0,0,1,0
+7,PT Pemeringkat Efek Indonesia,PCR,PEFINDO Rating - Publikasi Peringkat Perusahaan,2,7,0,NULL,12/12/2016 0:00,1,2/9/2019 0:31,achmad.jabbar,NULL,NULL,,,NULL,0,1,,0,0,1,0
+8,BPJS Ketenagakerjaan,BPJSTKBU,BPJS Ketenagakerjaan-Status Kepesertaan Perusahaan,2,8,0,NULL,12/12/2016 0:00,1,2/9/2019 0:31,achmad.jabbar,NULL,NULL,,,NULL,0,1,,0,0,6,0
+9,Bursa Efek Indonesia,BEI,BEI - Publikasi Perusahaan Emiten,2,9,0,NULL,12/12/2016 0:00,1,8/24/2022 14:26,achmad.jabbar,NULL,NULL,,,NULL,0,1,,0,0,2,0
+10,TASPEN,TASPEN,TASPEN - Info PNS & Pensiunan,3,10,0,NULL,12/12/2016 0:00,1,1/24/2020 14:29,ahmad.fikri,NULL,NULL,https://taspen.pefindobirokredit.com/taspen/getdata?nik=@NoKTP,GET,,0,1,nomor_ktp,0,15,0,0
+11,BEI - Laporan Keuangan BANK,BEIBANK,BEI - Publikasi Laporan Keuangan Perbankan,2,11,1,NULL,4/3/2017 0:00,1,4/3/2017 0:00,1,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,0,0,2,0
+12,BEI - Laporan Keuangan Bank Neraca,IDXBANKNRC,BEI - Laporan Keuangan Bank Neraca,2,12,1,NULL,4/3/2017 0:00,1,4/3/2017 0:00,1,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,0,0,2,0
+13,Traveloka,TVL,Traveloka - Info Rekanan Perhotelan,2,13,0,NULL,4/3/2017 0:00,1,2/9/2019 0:34,achmad.jabbar,NULL,NULL,,,NULL,0,0,,0,0,2,0
+14,Courts,COURTS,Courts - Data Pelanggan Kredit,2,14,0,NULL,11/16/2017 0:00,1,3/28/2019 15:55,ahmad.fikri,NULL,NULL,,,,0,0,,0,2,0,17
+15,BPJS Ketenagakerjaan - Peserta BPJS TK,BPJSTKPO,Status Kepesertaan BPJS Ketenagakerjaan,2,15,0,NULL,12/7/2017 0:00,1,7/9/2021 20:04,Hafit,NULL,NULL,https://wssvc.bpjsketenagakerjaan.go.id/ptsp/clrTK.bpjs?q=@NoKTP,GET,,30000,1,"msg:""Sukses""",0,5,0,0
+16,Askrindo Syariah,ASKRINDO,Data Jaminan,2,16,0,NULL,10/23/2018 0:00,1,11/12/2019 11:42,ahmad.fikri,NULL,NULL,,,NULL,0,1,,0,3,4,0
+17,2,1,1,1,1,0,NULL,1/16/2019 9:05,edo,2/9/2019 0:32,achmad.jabbar,NULL,NULL,1,1,1,1,0,1,0,1,1,1
+18,tes,tes,,1,0,0,NULL,1/18/2019 14:45,,2/9/2019 0:33,achmad.jabbar,NULL,NULL,,,,0,0,,0,1,2,0
+19,Trimegah Sekuritas,TMG,Data peminjaman dana untuk pembelian saham,2,17,0,NULL,1/18/2019 14:53,,11/20/2019 11:02,ahmad.fikri,NULL,NULL,,,,0,1,,0,4,2,19
+20,Askrindo (Persero),ASKP,Askrindo (Persero) - Data Jaminan,2,18,0,NULL,10/23/2019 11:15,,10/29/2019 14:00,ahmad.fikri,NULL,NULL,,,NULL,0,0,,0,3,4,0
+21,PT. Penjaminan Kredit Provinsi Jawa Tengah,JAMKRIDA,Data Penjaminan Kredit Provinsi Jawa Tengah,2,19,0,NULL,10/23/2019 15:25,,10/29/2019 14:07,ahmad.fikri,NULL,NULL,,,NULL,0,0,,0,3,4,0
+22,Agro Boga Utama,ABU,PT. Agro Boga Utama,2,20,0,NULL,10/24/2019 16:29,,11/12/2019 11:41,ahmad.fikri,NULL,NULL,,,NULL,0,1,,0,4,6,3
+23,MNC Sekuritas,MNC,Data peminjaman dana untuk pembelian saham,2,23,0,NULL,11/19/2019 10:22,,11/19/2019 11:50,ahmad.fikri,NULL,NULL,,,NULL,0,1,,0,4,2,19
+24,Nusa Makmur Kapital,NMK,Nusa Makmur Kapital (NMK),2,24,0,NULL,11/11/2020 6:10,,NULL,NULL,NULL,NULL,,,NULL,0,1,,1,0,3,0
+25,Ciputra International,CI,Ciputra International (CI),2,25,0,NULL,11/11/2020 9:43,,NULL,NULL,NULL,NULL,,,NULL,0,1,,1,4,5,0
+26,COWAY International Indonesia,CWY,COWAY International Indonesia (CWY),2,26,0,NULL,12/11/2020 8:06,,12/11/2020 8:15,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+27,Collectius Asset Management,COL,Collectius Asset Management (COL),2,27,0,NULL,3/18/2021 11:35,,3/18/2021 11:35,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,1,7,0,0
+28,Asuransi Rama Satria Wibawa,ARSW,Asuransi Rama Satria Wibawa (ARSW),2,28,0,NULL,4/15/2021 14:36,,4/15/2021 14:36,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,3,4,0
+29,Ciputra Residence,CR,Ciputra Residence (CR),2,33,0,NULL,11/8/2021 10:00,,11/8/2021 10:00,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,1,4,5,0
+30,Wagros Digital Indonesia,WAGROS,PT. WAGROS DIGITAL INDONESIA,2,34,0,NULL,11/10/2021 10:08,,11/10/2021 10:08,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+31,Katalisator Asa Indonesia,TJETAK,PT Katalisator Asa Indonesia (TJETAK),2,31,0,NULL,2/9/2022 12:26,,2/9/2022 12:26,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+32,Asuransi Sinarmas,ASMS,Asuransi Sinarmas (ASMS),2,32,0,NULL,2/15/2022 15:02,,2/15/2022 15:02,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,3,4,0
+33,Qverse Teknologi Indonesia,QVERSE,Qverse Teknologi Indonesia,2,33,0,NULL,9/19/2022 10:53,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+34,Bina Karya Prima,BKP,Bina Karya Prima (BKP),2,29,0,NULL,6/4/2021 9:45,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+35,Tiket.com,TKT,Global Tiket Network (Tiket.com),2,30,0,NULL,6/4/2021 9:47,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+36,Flow,FLW,FLOW - PT AsiaCollect Indonesia,2,34,0,NULL,6/17/2021 6:36,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,0,,1,7,0,0
+37,Shipper,SHP,Shipper - PT Pakde Solusi Digital,2,35,0,NULL,8/16/2021 6:54,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,0,,1,0,3,0
+38,Wagros Digital Indonesia,WDI,PT Wagros Digital Indonesia,2,36,0,NULL,11/8/2021 5:31,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+39,Galva Technologies,GALVA,Galva Technologies,2,37,0,NULL,2/3/2022 8:33,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+40,Katalisator Asa Indonesia,TJETAK,PT Katalisator Asa Indonesia (TJETAK),2,38,0,NULL,2/24/2022 10:39,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+41,Jamkrida Jakarta,JMKJKT,PT Jamkrida Jakarta (JMKJKT),2,39,0,NULL,7/12/2022 0:40,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,3,4,0
+42,Fairbanc,FBC,Fairbanc (FBC),2,40,0,NULL,7/12/2022 1:41,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+43,Perum Jamkrindo,JAMKRINDO,Jaminan Kredit Indonesia (JAMKRINDO),2,41,0,NULL,7/12/2022 2:12,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,3,4,0
+44,Indogal,INDOGAL,Indogal Agro Trading (INDOGAL),2,43,0,NULL,8/12/2022 17:43,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+45,Kredit Syariah Indonesia,KRESYA,Kredit Syariah Indonesia (Kresya),2,44,0,NULL,8/15/2022 15:38,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,7,0
+46,WIKA,WIKA,PT Wijaya Karya (WIKA),2,45,0,NULL,10/6/2022 16:32,,10/25/2022 8:06,yogi.purwantoro,NULL,NULL,,,NULL,0,1,,0,4,10,0
