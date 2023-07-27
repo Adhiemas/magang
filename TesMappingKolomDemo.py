@@ -4,7 +4,7 @@
 # In[26]:
 
 import streamlit as st
-import mysql.connector
+pip install streamlit mysql-connector-python
 
 
 # In[27]:
