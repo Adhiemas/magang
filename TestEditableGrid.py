@@ -13,6 +13,9 @@ df = pd.read_csv('MS_DataSource.csv')
 
 # Now you can use 'df' as an argument for the st.experimental_data_editor() function:
 edited_df = st.data_editor(df)
+st.write(edited_df)
+edited_df.update(LRresult)
+st.write(edited_df)
 
 
 # In[ ]:
