@@ -8,10 +8,7 @@ import streamlit as st
 import pandas as pd
 
 # Assuming you have some data in a pandas DataFrame, you can define 'df' like this:
-data = {
-    'command': ['ls', 'cd', 'mkdir'],
-    'rating': [5, 4, 5]
-}
+
 df = pd.read_csv('MS_DataSource.csv')
 
 # Now you can use 'df' as an argument for the st.experimental_data_editor() function:
