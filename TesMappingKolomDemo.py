@@ -3,10 +3,8 @@
 
 # In[26]:
 
-pip install scikit-learn
-pip install pypyodbc
 import streamlit as st
-import pypyodbc as odbc
+import pyodbc as odbc
 
 
 # In[27]:
