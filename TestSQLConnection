@@ -1,0 +1,11 @@
+connection_string = f"""
+    DRIVER={{{DRIVER_NAME}}};
+    SERVER={SERVER_NAME};
+    DATABASE={DATABASE_NAME};
+    Trust_Connection=yes;
+    uid=wisang;
+    pwd=Jakarta123;
+"""
+
+conn = odbc.connect(connection_string)
+print(conn)
