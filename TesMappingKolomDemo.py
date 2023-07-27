@@ -4,7 +4,7 @@
 # In[26]:
 
 import streamlit as st
-import pyodbc as odbc
+import mysql.connector
 
 
 # In[27]:
