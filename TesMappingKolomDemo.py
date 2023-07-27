@@ -30,6 +30,18 @@ def create_connection():
 conn = create_connection()
 
 
+def run_query(query):
+    with conn.cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
+
+rows = run_query("SELECT * from [PBK_AOD].[dbo].[MappingKolom];")
+
+# Print results.
+for row in rows:
+    st.write(f"{row[0]} has a :{row[1]}:")
+
+
 
 
 # In[29]:
