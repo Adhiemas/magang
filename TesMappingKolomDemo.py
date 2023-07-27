@@ -4,7 +4,7 @@
 # In[26]:
 
 import streamlit as st
-import mysql.connector
+import pypyodbc as odbc
 
 
 # In[27]:
@@ -17,17 +17,17 @@ DATABASE_NAME = 'PBK_AOD'
 
 # In[28]:
 
-def create_connection():
-    # Replace the connection details with your database credentials
-    conn = mysql.connector.connect(
-        host='192.168.40.11',
-        user='wisang',
-        password='Jakarta123',
-        database='PBK_AOD'
-    )
-    return conn
+connection_string = f"""
+    DRIVER={{{DRIVER_NAME}}};
+    SERVER={SERVER_NAME};
+    DATABASE={DATABASE_NAME};
+    Trust_Connection=yes;
+    uid=wisang;
+    pwd=Jakarta123;
+"""
 
-conn = create_connection()
+conn = odbc.connect(connection_string)
+print(conn)
 
 
 def run_query(query):
