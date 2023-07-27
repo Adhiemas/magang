@@ -13,8 +13,7 @@ df = pd.read_csv('MS_DataSource.csv')
 
 # Now you can use 'df' as an argument for the st.experimental_data_editor() function:
 edited_df = st.data_editor(df)
-favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]
-st.markdown(f"Your favorite command is **{favorite_command}** 🎈")
+
 
 
 # In[ ]:
