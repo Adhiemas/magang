@@ -12,7 +12,7 @@ data = {
     'command': ['ls', 'cd', 'mkdir'],
     'rating': [5, 4, 5]
 }
-df = pd.DataFrame(data)
+df = pd.read_csv('MS_DataSource.csv')
 
 # Now you can use 'df' as an argument for the st.experimental_data_editor() function:
 edited_df = st.data_editor(df)
