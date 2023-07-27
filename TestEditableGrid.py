@@ -16,7 +16,7 @@ st.write("Tabel Untuk Update")
 edited_df = st.data_editor(df)
 st.write("Tabel Hasil Update")
 st.write(edited_df)
-edited_df.update()
+edited_df.update(other, overwrite=True)
 st.write(edited_df)
 
 
