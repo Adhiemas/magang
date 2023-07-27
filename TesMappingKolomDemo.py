@@ -3,7 +3,7 @@
 
 # In[26]:
 
-pip install pypyodbc
+$ pip install pypyodbc
 import streamlit as st
 import pypyodbc as odbc
 
