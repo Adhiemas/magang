@@ -17,9 +17,19 @@ edited_df = st.data_editor(df)
 st.write("Tabel Hasil Update")
 edited_df.update(edited_df, overwrite=True)
 st.write(edited_df)
-st.download_button("Download This Table", edited_df, file_name = "UpdatedMS_DataSource.csv")
+@st.cache
+def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode('utf-8')
 
+csv = convert_df(edited_df)
 
+st.download_button(
+    label="Download data as CSV",
+    data=csv,
+    file_name='UpdatedMS_DataSource.csv',
+    mime='text/csv',
+)
 
 # In[ ]:
 
