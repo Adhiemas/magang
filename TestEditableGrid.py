@@ -17,7 +17,7 @@ edited_df = st.data_editor(df)
 st.write("Tabel Hasil Update")
 edited_df.update(edited_df, overwrite=True)
 st.write(edited_df)
-
+st.download_button("Download This Table", edited_df, file_name = "UpdatedMS_DataSource.csv")
 
 
 
