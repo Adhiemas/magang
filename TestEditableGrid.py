@@ -30,9 +30,9 @@ st.download_button(
     file_name='UpdatedMS_DataSource.csv',
     mime='text/csv',
 )
-
+if st.button('Add New Row'):
+    edited_df.append(pd.DataFrame(edited_df))
+    edited_df = edited_df.append({'edited_def': edited_df}, ignore_index=True)
 # In[ ]:
-
-
 
 
