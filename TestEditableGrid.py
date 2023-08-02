@@ -31,8 +31,8 @@ st.download_button(
     mime='text/csv',
 )
 if st.button('Add New Row'):
-    edited_df.append(pd.DataFrame(edited_df))
-    edited_df = edited_df.append({'edited_def': edited_df}, ignore_index=True)
+    df.append(pd.DataFrame(edited_df))
+    edited_df = df.append({'edited_def': edited_df}, ignore_index=True)
 # In[ ]:
 
 
