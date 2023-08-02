@@ -3,6 +3,10 @@
 
 # In[ ]:
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import SessionState 
 
 data = pd.DataFrame(columns=["Random"])
 st.text("Original dataframe")
