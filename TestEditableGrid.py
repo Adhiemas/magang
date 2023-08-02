@@ -13,7 +13,7 @@ df = pd.read_csv('MS_DataSource.csv')
 
 # Now you can use 'df' as an argument for the st.experimental_data_editor() function:
 st.write("Tabel Untuk Update")
-edited_df = st.text_input(df)
+edited_df = st.data_editor(df)
 st.write("Tabel Hasil Update")
 st.write(edited_df)
 edited_df.update(edited_df, overwrite=True)
