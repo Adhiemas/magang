@@ -15,7 +15,9 @@ df = pd.read_csv('MS_DataSource.csv')
 st.write("Tabel Untuk Update")
 edited_df = st.data_editor(df)
 st.write("Tabel Hasil Update")
+edited_df.update(edited_df, overwrite=True)
 st.write(edited_df)
+
 
 
 
