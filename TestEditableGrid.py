@@ -29,7 +29,6 @@ def convert_df(df):
 csv = convert_df(edited_df)
 
 
-)
 if st.button('Add New Row'):
         # Open our existing CSV file in append mode
     # Create a file object for this file
@@ -49,6 +48,7 @@ st.download_button(
     data=csv,
     file_name='UpdatedMS_DataSource.csv',
     mime='text/csv',
+ )
 # In[ ]:
 
 
