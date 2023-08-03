@@ -6,6 +6,10 @@
 
 import streamlit as st
 import pandas as pd
+from csv import writer
+ 
+# List that we want to add as a new row
+List = ['', '', '', '',  '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 
 # Assuming you have some data in a pandas DataFrame, you can define 'df' like this:
 
@@ -31,8 +35,18 @@ st.download_button(
     mime='text/csv',
 )
 if st.button('Add New Row'):
-    csv.append(pd.DataFrame(edited_df))
-    edited_df = csv.append({'edited_def': edited_df}, ignore_index=True)
+        # Open our existing CSV file in append mode
+    # Create a file object for this file
+    with open(edited_df, 'a') as f_object:
+        # Pass this file object to csv.writer()
+        # and get a writer object
+        writer_object = writer(f_object)
+        # Pass the list as an argument into
+        # the writerow()
+        writer_object.writerow(List)
+     
+        # Close the file object
+        f_object.close()
 # In[ ]:
 
 
