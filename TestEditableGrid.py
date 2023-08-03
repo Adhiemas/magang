@@ -28,11 +28,7 @@ def convert_df(df):
 
 csv = convert_df(edited_df)
 
-st.download_button(
-    label="Download data as CSV",
-    data=csv,
-    file_name='UpdatedMS_DataSource.csv',
-    mime='text/csv',
+
 )
 if st.button('Add New Row'):
         # Open our existing CSV file in append mode
@@ -47,6 +43,12 @@ if st.button('Add New Row'):
      
         # Close the file object
         f_object.close()
+
+st.download_button(
+    label="Download data as CSV",
+    data=csv,
+    file_name='UpdatedMS_DataSource.csv',
+    mime='text/csv',
 # In[ ]:
 
 
